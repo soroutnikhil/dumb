@@ -1,0 +1,110 @@
+body {
+    background-image: url('image1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Changed height to min-height */
+}
+
+#textForm {
+    text-align: center;
+    border: 2px solid #007bff;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#textForm label {
+    font-size: 30px;
+    color: white;
+}
+
+.speaker-photo img {
+    width: 90px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 30px;
+}
+
+input[type="button"] {
+    width: 200px;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 24px;
+    transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+h1 {
+    color: white;
+}
+
+@media only screen and (max-device-width: 450px) and (orientation: portrait) {
+    .back-ground {
+        background-image: url("img1.png");
+        /* Adjusted image URL */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #textForm label {
+        font-size: 100px;
+        color: white
+    }
+    input[type="text"] {
+        width: 300px;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 100px;
+    }
+    .speaker-photo img {
+        width: 200px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    input[type="button"] {
+        width: 500px;
+        padding: 15px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 50px;
+        transition: background-color 0.3s;
+    }
+    h1 {
+        color: white;
+    }
+    #sp {
+        font-size: 80px;
+    }
+}
